@@ -1,0 +1,6 @@
+#robotframework
+*.html
+*.xml
+*.log
+*.png
+Results/
