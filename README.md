@@ -30,7 +30,13 @@ Robot
 
 ## 🚀 Instalando <robotframework>
 
-Baixar Library e executar: `sudo python setup.py install`
+FOR MAC OS
+
+Link: https://testersdock.com/robot-framework-install-mac/
+
+-Install the lib "robotframework-requests" too:
+
+pip3 install robotframework-requests
 
 Git das Library do projeto:
 
@@ -38,63 +44,12 @@ Faker: `https://github.com/guykisel/robotframework-faker`
 
 SeleniumLibrary: `https://github.com/robotframework/SeleniumLibrary`
 
+Robotframework Requests `https://github.com/MarketSquare/robotframework-requests/blob/master/README.md`
+
 ## Run
 
 robot --variable BROWSER:Firefox --outputdir results ExemploAPI/JSONPLACEHOLDER
 robot --variable BROWSER:Firefox --outputdir results ExemploAPI
-
-## License
-
-**Godog** and **Gherkin** are licensed under the [MIT][license] and developed as a part of the [cucumber project][cucumber]
-
-[godoc]: https://pkg.go.dev/github.com/cucumber/godog "Documentation on godog"
-[golang]: https://golang.org/ "GO programming language"
-[behat]: http://docs.behat.org/ "Behavior driven development framework for PHP"
-[cucumber]: https://cucumber.io/ "Behavior driven development framework"
-[license]: https://en.wikipedia.org/wiki/MIT_License "The MIT license"
-[contributing guide]: https://github.com/cucumber/godog/blob/main/CONTRIBUTING.md
-[community slack]: https://cucumber.io/community#slack>
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <robotframework>
-
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-
-Para contribuir com <robotframework>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <robotframework> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Luiz Felipe - Fluid</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Douglas Adriano Queiroz - NKEY</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ## 😄 Seja um dos contribuidores<br>
 

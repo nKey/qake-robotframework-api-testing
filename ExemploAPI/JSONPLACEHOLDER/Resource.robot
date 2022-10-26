@@ -64,13 +64,16 @@ Confere o status code
 
 Confere a ID do comentário
     [Arguments]         ${ID}
+    Should Be Equal As Strings  ${ID}  ${RESPOSTA.json()[0]}[id]
+    #Dictionary Should Contain Item  ${RESPOSTA.json()[0]}  id   ${ID} 
     #Log               ${RESPOSTA.json()}
-    Dictionary Should Contain Item  ${RESPOSTA.json()[0]}  id   ${ID}
 
 Confere a ID do usuário
     [Arguments]         ${ID}
     #BuiltIn.Log To Console               ${RESPOSTA.json()}
-    Dictionary Should Contain Item  ${RESPOSTA.json()}  id   ${ID}
+    Should Be Equal As Strings  ${ID}  ${RESPOSTA.json()}[id]
+    #Dictionary Should Contain Item  ${RESPOSTA.json()}  id   ${ID}
+
 Confere o NOME do usuário
     [Arguments]         ${NAME}
     #BuiltIn.Log To Console               ${RESPOSTA.json()}
@@ -80,7 +83,8 @@ Confere o NOME do usuário
 Confere o Autor do comentário
     [Arguments]         ${POSTID}
     #Log               ${RESPOSTA.json()}
-    Dictionary Should Contain Item  ${RESPOSTA.json()[0]}  postId   ${POSTID}
+    Should Be Equal As Strings  ${POSTID}  ${RESPOSTA.json()[0]}[postId] 
+    #Dictionary Should Contain Item  ${RESPOSTA.json()[0]}  postId   ${POSTID}
 
 Confere o Nome do comentário
     [Arguments]         ${NAME}
