@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<p align="center"><img src="logo_robot.png" alt="Ruby on Rails logo" style="width:250px;" /></p>
+<p align="center"><img src="logo-robot.png" alt="Ruby on Rails logo" style="width:250px;" /></p>
  
 Neste repositório deixarei os exemplos que citarei no Blog Robotizando Testes.
 
